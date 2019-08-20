@@ -11,6 +11,8 @@ class Triangle
   end
   
   def kind 
-    if (@a = )
+    if (@a == @b) && (@b == @c) && (@a == @c)
+      :equilateral
+    else
   end
 end
