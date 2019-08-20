@@ -17,5 +17,6 @@ class Triangle
         :isosceles
     elsif (@side != @side2) && (@side2 != @side3) && (@side1 != @side3)
         :scalene
+    end
   end
 end
