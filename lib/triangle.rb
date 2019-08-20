@@ -13,6 +13,6 @@ class Triangle
   def kind 
     if (@a == @b) && (@b == @c) && (@a == @c)
       :equilateral
-    else
+    elsif 
   end
 end
