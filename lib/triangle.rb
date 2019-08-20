@@ -4,15 +4,15 @@ class Triangle
     
   end
   
-  def initialize(a, b, c)
-    @a = a 
-    @b = b
-    @c = c
+  def initialize(side1, side2, side3)
+    @side1 = side1
+    @side2 = side2
+    @side3 = side3
   end
   
   def kind 
-    if (@a == @b) && (@b == @c) && (@a == @c)
+    if (@side1 == @side2) && (@side2 == @side3) && (@side1 == @side3)
       :equilateral
-    elsif 
+    elsif (@side1 == @side2) 
   end
 end
